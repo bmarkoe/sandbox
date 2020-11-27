@@ -6,8 +6,15 @@ package com.fsi.sandbox;
  */
 public class HelloWorld 
 {
-    public static void main( String[] args )
+    public static String main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	String val = "Hellow World!";
+        System.out.println(val);
+        return val; 
+    }
+    
+    public static String getVal() {
+    	String val = "Hello World!";
+    	return val; 
     }
 }
