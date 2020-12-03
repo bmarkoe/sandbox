@@ -20,6 +20,11 @@
         </plugin>
     </plugins>
 </build>
+  <properties>
+  	<sonar.host.url>
+  	 http://localhost:80
+  	</sonar.host.url>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
